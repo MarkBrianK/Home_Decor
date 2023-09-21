@@ -108,9 +108,10 @@ font-weight: bold;
 cursor: pointer;
 transition:scale 0.2 ease;
 }
-.btnLogin-popup.hover{
+.btnLogin-popup:hover{
 scale: 1.05;
 color: #fff;
+background-color: blueviolet;
 }
 .btnLogin-popup:active{
 scale: 0.95;
