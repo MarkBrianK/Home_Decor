@@ -69,10 +69,7 @@ position: relative;
 top: -10px;
 
 }
-.nav{
-flex: 1;
-text-align: right;
-}
+
 nav ul li{
 list-style-type: none;
 display: flex;
