@@ -78,7 +78,7 @@ display: block;
 }
 nav ul li a:hover{
 color: darkviolet;
-transition: 3s;
+transition: 1s;
 }
 nav ul li ul li{
 display: none;
@@ -102,6 +102,7 @@ transition:scale 0.2 ease;
 scale: 1.05;
 color: #fff;
 background-color: blueviolet;
+transition: 1s;
 }
 .btnLogin-popup:active{
 scale: 0.95;
