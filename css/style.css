@@ -1,202 +1,197 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 /* body{
-    background: url(../Assets/white.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+background: url(../Assets/white.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
 
 } */
 
-
 .padding{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;    
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+overflow-x: hidden;
 }
-
 
 :root{
-    --overlay-color:#03a9f4
+--overlay-color:#03a9f4
 }
 *{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
 }
 .container{
-    margin-left: -30px;
-    background-position: center;
-    background-size: cover;
+margin-left: -30px;
+background-position: center;
+background-size: cover;
 }
 .container img {
-    width: auto;
-    height: 50px;
-    
+width: auto;
+height: 50px;
+
 }
 .logo{
-    color:black;
-    font-size: 28px;
+color:black;
+font-size: 28px;
 }
 h2 {
-    /* font-size: 0px; */
-    color: black;
-    /* position: relative ; */
-    bottom: 50px;
+/* font-size: 0px; */
+color: black;
+/* position: relative ; */
+bottom: 50px;
 
 }
 
 p1{
-   
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    position: relative;
-    bottom: 550px  
-  
+
+font-size: 30px;
+color: rgb(0, 0, 0);
+position: relative;
+bottom: 550px
+
 }
 .navbar{
-    height: 12%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    bottom: 650px;
-    vertical-align: text-top;
+height: 12%;
+display: flex;
+align-items: center;
+position: relative;
+bottom: 650px;
+vertical-align: text-top;
 }
 
 .menu-icon{
-    width: 30px;
-    cursor: pointer;
-    position: relative;
-    top: -10px;
-    
+width: 30px;
+cursor: pointer;
+position: relative;
+top: -10px;
+
 }
 .nav{
-    flex: 1;
-    text-align: right;  
+flex: 1;
+text-align: right;
 }
 nav ul li{
-    list-style-type: none;
-    display: flex;
-    padding: 10px 20px;
-    float: left;
-    text-align: center;
+list-style-type: none;
+display: flex;
+padding: 10px 20px;
+float: left;
+text-align: center;
 }
 nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
+color: black;
+text-decoration: none;
+font-weight: bold;
+display: block;
 }
 nav ul li a.hover{
-    color: darkviolet;
-    transition: 3s;
+color: darkviolet;
+transition: 3s;
 }
 nav ul li ul li{
-    display: none;
+display: none;
 }
 nav ul li:hover ul li{
-    display: block;
+display: block;
 }
 .btnLogin-popup{
-    background-color: rgb(10, 10, 10);
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition:scale 0.2 ease;
+background-color: rgb(10, 10, 10);
+color: #fff;
+padding: 0.5rem 1rem;
+border: none;
+outline: none;
+border-radius: 20px;
+font-size: 0.8rem;
+font-weight: bold;
+cursor: pointer;
+transition:scale 0.2 ease;
 }
 .btnLogin-popup.hover{
-    scale: 1.05;
-    color: #fff;
+scale: 1.05;
+color: #fff;
 }
 .btnLogin-popup:active{
-    scale: 0.95;
+scale: 0.95;
 }
 
 /* CONTENT BOX STYLE */
 .container{
-    position: relative;
-    width: 1200px;
-    height: 100px;
-    margin: 240px auto;
-    display: inline;
+position: relative;
+width: 1200px;
+height: 100px;
+margin: 240px auto;
+display: inline;
 }
 .container .box{
-    position: relative;
-    width: calc(300px - 30px);
-    height: calc(300px - 30px);
-    background: black;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px; 
+position: relative;
+width: calc(300px - 30px);
+height: calc(300px - 30px);
+background: black;
+float: left;
+margin: 15px;
+box-sizing: border-box;
+overflow: hidden;
+border-radius: 10px;
 }
 .container .box .icon{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: violet;
-    transition: 0.5s;
-    z-index: 1;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: violet;
+transition: 0.5s;
+z-index: 1;
+
 }
+
 .container .box:hover .icon{
-    top: 20px;
-    left: calc(50% -40px);
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+top: 20px;
+left: calc(50% - 50px);
+width: 80px;
+height: 80px;
+border-radius: 50%;
 }
-.container .box .icon .img{
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50px, -50px );
-    font-size: 80px;
-    transition: 0.5s;
-    color: black;
- }
-.container .box:hover .icon .fa{
-    font-size: 40px;
+
+.container .box .icon img{
+margin-left: 20%;
+margin-top: 20%;
 }
+
 .container .box .content{
-    position: absolute;
-    top: 100%;
-    height: calc(100% -100px);
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    opacity: 0;
+position: absolute;
+top: 100%;
+height: calc(100% -100px);
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+transition: 0.5s;
+opacity: 0;
 }
 .container .box:hover .content{
-    top: 100px;
-    opacity: 1;
-} 
+top: 100px;
+opacity: 1;
+}
 .container .box .content h3{
-    margin:  0 0 10px;
-    padding: 0;
-    color: #fff;
-    font-size: 24px;
+margin: 0 0 10px;
+padding: 0;
+color: #fff;
+font-size: 24px;
 }
 .container .box .content p{
-    margin: 0;
-    padding: 0;
-    color: #fff;
+margin: 0;
+padding: 0;
+color: #fff;
 }
 .container .box:nth-child(1) .icon{
-    background: violet;
+background: violet;
 }
 .container .box:nth-child(1){
-    background: black;
+background: black;
 }
 body {
-    overflow: hidden;
+overflow: hidden;
 }
+
